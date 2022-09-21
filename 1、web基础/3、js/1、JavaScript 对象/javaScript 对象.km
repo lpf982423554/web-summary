@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "cn1qj8pfxxs0",
+            "created": 1663728506914,
+            "text": "javaScript 对象"
+        },
+        "children": []
+    },
+    "template": "right",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
