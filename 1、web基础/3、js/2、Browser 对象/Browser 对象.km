@@ -1,0 +1,821 @@
+{
+    "root": {
+        "data": {
+            "id": "cmiz438zqf40",
+            "created": 1661823070386,
+            "text": "Window"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cmiz712k9s80",
+                    "created": 1661823300736,
+                    "text": "方法属性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cmiz986b53k0",
+                            "created": 1661823472928,
+                            "text": "属性"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz9aojbcg0",
+                            "created": 1661823478384,
+                            "text": "方法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cmiz7pte00g0",
+                    "created": 1661823354601,
+                    "text": "子集对象"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cmiz4g2akco0",
+                            "created": 1661823098279,
+                            "text": "document 对象",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cmizjf48ynk0",
+                                    "created": 1661824271683,
+                                    "text": "简介"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cmizkfpzvvc0",
+                                            "created": 1661824351362,
+                                            "text": " 浏览器载入 HTML 文档, 它就会成为 Document 对象，是HTML文档的根节点"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cmiz986b53k0",
+                                    "created": 1661823472928,
+                                    "text": "属性",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cmizl4zljj40",
+                                            "created": 1661824406362,
+                                            "text": " activeElement"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizld2264w0",
+                                                    "created": 1661824423925,
+                                                    "text": "返回当前获取焦点元素"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmizl4zljj40",
+                                            "created": 1661824406362,
+                                            "text": "anchors"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizld2264w0",
+                                                    "created": 1661824423925,
+                                                    "text": "返回了当前页面的所有超级链接数组"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4rsntuy00",
+                                            "created": 1663057753108,
+                                            "text": "baseURI"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmv4rvxkt9c0",
+                                                    "created": 1663057760227,
+                                                    "text": "返回文档的绝对基础 URI"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4rzdht0g0",
+                                            "created": 1663057767720,
+                                            "text": "body"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmv4s74dztk0",
+                                                    "created": 1663057784584,
+                                                    "text": "返回文档的body元素"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4xnrnhd40",
+                                            "created": 1663058212640,
+                                            "text": "cookie"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmv4xr8aruo0",
+                                                    "created": 1663058220177,
+                                                    "text": "设置或返回与当前文档有关的所有 cookie"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxm82a7dmw0",
+                                            "created": 1663310106660,
+                                            "text": "doctype"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxm85cy95k0",
+                                                    "created": 1663310113356,
+                                                    "text": "返回与文档相关的文档类型声明 (DTD)"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxm8bwx3cw0",
+                                            "created": 1663310127625,
+                                            "text": "documentElement"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxm8e0bgcg0",
+                                                    "created": 1663310132184,
+                                                    "text": "返回文档的根节点"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxm8s20avk0",
+                                            "created": 1663310162761,
+                                            "text": "documentMode"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxm8vnedyg0",
+                                                    "created": 1663310170585,
+                                                    "text": "返回用于通过浏览器渲染文档的模式"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxma9uts400",
+                                            "created": 1663310279873,
+                                            "text": "documentURI"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxmad3ffvk0",
+                                                    "created": 1663310286923,
+                                                    "text": "设置或返回文档的位置"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxmaf8zmu80",
+                                            "created": 1663310291613,
+                                            "text": "domain"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxmaik8h140",
+                                                    "created": 1663310298823,
+                                                    "text": "返回当前文档的域名"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmxmb17w2yw0",
+                                            "created": 1663310339436,
+                                            "text": "embeds"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmxmb8wuhx40",
+                                                    "created": 1663310356182,
+                                                    "text": "返回文档中所有嵌入的内容（embed）集合"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cmiz9aojbcg0",
+                                    "created": 1661823478384,
+                                    "text": "方法"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cmuyab7ekkg0",
+                                            "created": 1663039456259,
+                                            "text": "事件"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmuy8xd93lk0",
+                                                    "created": 1663039347773,
+                                                    "text": " addEventListener(\"mousemove\", myFunction)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmuy97ckqhk0",
+                                                            "created": 1663039369500,
+                                                            "text": "简介"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmuy9cmzoqo0",
+                                                                    "created": 1663039381014,
+                                                                    "text": "向文档添加事件句柄"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cmv21rog1s80",
+                                                            "created": 1663050071280,
+                                                            "text": "参数"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv22c11wbs0",
+                                                                    "created": 1663050115578,
+                                                                    "text": "事件名"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv22ss33xc0",
+                                                                    "created": 1663050152041,
+                                                                    "text": "执行方法"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmuyawg4qvk0",
+                                                    "created": 1663039502499,
+                                                    "text": "removeEventListener(\"mousemove\", myFunction)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmuy97ckqhk0",
+                                                            "created": 1663039369500,
+                                                            "text": "简介"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmuy9cmzoqo0",
+                                                                    "created": 1663039381014,
+                                                                    "text": "移除文档事件句柄"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cmv21rog1s80",
+                                                            "created": 1663050071280,
+                                                            "text": "参数"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv22c11wbs0",
+                                                                    "created": 1663050115578,
+                                                                    "text": "事件名"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv22ss33xc0",
+                                                                    "created": 1663050152041,
+                                                                    "text": "执行方法"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4o3k8ufk0",
+                                            "created": 1663057463379,
+                                            "text": "adoptNode(node)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmuy97ckqhk0",
+                                                    "created": 1663039369500,
+                                                    "text": "简介"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmuy9cmzoqo0",
+                                                            "created": 1663039381014,
+                                                            "text": " 用于从另外一个文档中获取一个节点"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmv21rog1s80",
+                                                    "created": 1663050071280,
+                                                    "text": "参数"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmv4owuje000",
+                                                            "created": 1663057527128,
+                                                            "text": "node "
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv22c11wbs0",
+                                                                    "created": 1663050115578,
+                                                                    "text": "另外一个文档的节点，可以是任何节点类型"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4w1okn3k0",
+                                            "created": 1663058086200,
+                                            "text": "close()"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmv4xiuy7u80",
+                                                    "created": 1663058201955,
+                                                    "text": "关闭用 document.open() 方法打开的输出流，并显示选定的数据"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmv4y1dcos00",
+                                            "created": 1663058242250,
+                                            "text": "节点"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmv4y5gz9y80",
+                                                    "created": 1663058251177,
+                                                    "text": "属性"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmxm47tn3xk0",
+                                                            "created": 1663309805263,
+                                                            "text": "属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cmxm4ccdovk0",
+                                                            "created": 1663309815103,
+                                                            "text": "方法"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmv4ydvcjxs0",
+                                                                    "created": 1663058269460,
+                                                                    "text": "createAttribute()"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cmv4yfj3cls0",
+                                                                            "created": 1663058273072,
+                                                                            "text": "创建一个属性节点"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmxm4ibmt000",
+                                                                    "created": 1663309828118,
+                                                                    "text": "createComment()"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cmxm4sbtcrk0",
+                                                                            "created": 1663309849897,
+                                                                            "text": "创建注释节点"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmv4y98aj4w0",
+                                                    "created": 1663058259358,
+                                                    "text": "元素"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmxm6pkuz5k0",
+                                                            "created": 1663310000642,
+                                                            "text": "属性"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cmxm6r6pt000",
+                                                            "created": 1663310004140,
+                                                            "text": "方法"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmxm6u78bq80",
+                                                                    "created": 1663310010702,
+                                                                    "text": "createElement()"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cmxm75v4ypc0",
+                                                                            "created": 1663310036092,
+                                                                            "text": "创建元素节点。"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "cmxm7abf4ps0",
+                                                                    "created": 1663310045784,
+                                                                    "text": "createTextNode()"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cmxm7l24qyw0",
+                                                                            "created": 1663310069167,
+                                                                            "text": " 创建文本节点"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz5cjvzio0",
+                            "created": 1661823169000,
+                            "text": "history 对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz5nlluu80",
+                            "created": 1661823193048,
+                            "text": "location 对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz61x2mag0",
+                            "created": 1661823224216,
+                            "text": "navigator 对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz6ghnq4o0",
+                            "created": 1661823255936,
+                            "text": "screen 对象"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cmiz8k9jqhc0",
+                            "created": 1661823420881,
+                            "text": "存储对象",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cmiz8qiv5340",
+                                    "created": 1661823434505,
+                                    "text": "localStorage"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cmizc1ya1340",
+                                            "created": 1661823694474,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizcen5uls0",
+                                                    "created": 1661823722100,
+                                                    "text": "用于长久保存整个网站的数据，保存的数据没有过期时间，直到手动去除"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmiz986b53k0",
+                                            "created": 1661823472928,
+                                            "text": "属性"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmiz9i9mx9k0",
+                                                    "created": 1661823494897,
+                                                    "text": "length"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmiz9wlfi3k0",
+                                                            "created": 1661823526085,
+                                                            "text": "返回存储对象中包含多少条数据"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmiz9aojbcg0",
+                                            "created": 1661823478384,
+                                            "text": "方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizac7snk00",
+                                                    "created": 1661823560089,
+                                                    "text": "key(n)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmizb21fm340",
+                                                            "created": 1661823616301,
+                                                            "text": "返回存储对象中第 n 个键的名称"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmizamaics00",
+                                                    "created": 1661823582021,
+                                                    "text": "getItem(keyname)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmizb5397200",
+                                                            "created": 1661823622941,
+                                                            "text": "返回指定键的值"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmizaoqsww00",
+                                                    "created": 1661823587360,
+                                                    "text": "setItem(keyname, value)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmizb8pysk00",
+                                                            "created": 1661823630845,
+                                                            "text": "添加键和值，如果对应的值存在，则更新该键对应的值。"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmizarn9hg00",
+                                                    "created": 1661823593676,
+                                                    "text": "removeItem(keyname)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmizbd5e1ds0",
+                                                            "created": 1661823640485,
+                                                            "text": "移除键"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cmizau4bn0w0",
+                                                    "created": 1661823599061,
+                                                    "text": "clear()"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cmizbfi7hyg0",
+                                                            "created": 1661823645613,
+                                                            "text": "清除存储对象中所有的键"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cmiz932nkyg0",
+                                    "created": 1661823461823,
+                                    "text": "sessionStorage"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cmiz986b53k0",
+                                            "created": 1661823472928,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizcqexbq80",
+                                                    "created": 1661823747724,
+                                                    "text": "用于临时保存同一窗口(或标签页)的数据，在关闭窗口或标签页之后将会删除这些数据"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cmiz9aojbcg0",
+                                            "created": 1661823478384,
+                                            "text": "属性方法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cmizcym64eg0",
+                                                    "created": 1661823765576,
+                                                    "text": "同localStorage"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "snow-compact",
+    "version": "1.4.43"
+}
