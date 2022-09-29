@@ -1,0 +1,593 @@
+{
+    "root": {
+        "data": {
+            "id": "cn8npwnrom80",
+            "created": 1664431485608,
+            "text": "NodeJS"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cn8nws48cwo0",
+                    "created": 1664432024268,
+                    "text": "NodeJS基础",
+                    "expandState": "collapse"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cn8oabgsz5c0",
+                            "created": 1664433085122,
+                            "text": "模块"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cn8nyv6e9wg0",
+                                    "created": 1664432187658,
+                                    "text": "require"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8o1nxh24w0",
+                                            "created": 1664432406973,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8nyyibbzs0",
+                                                    "created": 1664432194909,
+                                                    "text": "用于在当前模块中加载和使用别的模块，传入一个模块名，返回一个模块导出对象"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8o1ppbpgg0",
+                                            "created": 1664432410834,
+                                            "text": "注意"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8o1tbwlls0",
+                                                    "created": 1664432418730,
+                                                    "text": "相对路径"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cn8o1ybkik80",
+                                                            "created": 1664432429594,
+                                                            "text": "./"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cn8o21bxpaw0",
+                                                    "created": 1664432436146,
+                                                    "text": "绝对路径"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cn8p079fzfc0",
+                                                            "created": 1664435113438,
+                                                            "text": "斜杠"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cn8o28kof5c0",
+                                                                    "created": 1664432451912,
+                                                                    "text": "/"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cn8oy24o1gg0",
+                                                            "created": 1664434945537,
+                                                            "text": "盘符"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cn8oy57tk0w0",
+                                                                    "created": 1664434952258,
+                                                                    "text": "C:"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cn8o2epyals0",
+                                                    "created": 1664432465292,
+                                                    "text": "js文件"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cn8o2o5jrds0",
+                                                            "created": 1664432485826,
+                                                            "text": "js文件中的.js扩展名可以省略"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8o3ds08fs0",
+                                    "created": 1664432541603,
+                                    "text": "exports"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8o3ic76gw0",
+                                            "created": 1664432551532,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8o3jwf42o0",
+                                                    "created": 1664432554931,
+                                                    "text": "当前模块的导出对象，用于导出模块公有方法和属性"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8o4ntbja00",
+                                            "created": 1664432641815,
+                                            "text": "注意"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8o4qdpxag0",
+                                                    "created": 1664432647402,
+                                                    "text": "别的模块通过require函数使用当前模块时得到的就是当前模块的exports对象"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8o7alo29s0",
+                                    "created": 1664432848146,
+                                    "text": "module"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8oaruyngw0",
+                                            "created": 1664433120806,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8o7k813940",
+                                                    "created": 1664432869090,
+                                                    "text": "可以访问到当前模块的一些相关信息，替换当前模块的导出对象"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8oc9h8eig0",
+                                    "created": 1664433237522,
+                                    "text": "模块初始化"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8ochi62ow0",
+                                            "created": 1664433254993,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8ociu2ju00",
+                                                    "created": 1664433257890,
+                                                    "text": "一个模块中的JS代码仅在模块第一次被使用时执行一次，并在执行过程中初始化模块的\n导出对象，缓存起来的导出对象被重复利用"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8op0gvus80",
+                                    "created": 1664434236644,
+                                    "text": "主模块"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8op7yshb40",
+                                            "created": 1664434252965,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8op9l85e00",
+                                                    "created": 1664434256498,
+                                                    "text": "通过命令行参数传递给NodeJS以启动程序的模块被称为主模块"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8oq8ov4480",
+                                            "created": 1664434332905,
+                                            "text": "注意"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8oqazpslk0",
+                                                    "created": 1664434337915,
+                                                    "text": "主模块负责调度组成整个程序的其他模块完成工作"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cn8ounm9v7s0",
+                            "created": 1664434678857,
+                            "text": "二进制模块"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cn8outgw4yw0",
+                                    "created": 1664434691592,
+                                    "text": "简介"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8ouwshmwo0",
+                                            "created": 1664434698824,
+                                            "text": "一般我们使用JS编写模块，但NodeJS也支持使用C/C++编写二进制模块"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8ovz98uvk0",
+                                    "created": 1664434782555,
+                                    "text": "注意"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8ow11rg140",
+                                            "created": 1664434786456,
+                                            "text": "编译好的二进制模块除了文件扩展名是.node外，和JS模块的使用方式相同"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cn8nwzvo0kw0",
+                    "created": 1664432041165,
+                    "text": "代码的组织和部署"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cn8oys9cqwo0",
+                            "created": 1664435002416,
+                            "text": "模块路径解析规则"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cn8oz8uzz6o0",
+                                    "created": 1664435038554,
+                                    "text": "内置模块"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8p2k5tnlc0",
+                                            "created": 1664435298245,
+                                            "text": "如果传递给require函数的是NodeJS内置模块名称不做路径解析，直接返回内部模块的导出对象，例如require（'fs'）"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8p0zsuan40",
+                                    "created": 1664435175561,
+                                    "text": "node_modules目录"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8p8nmr7og0",
+                                            "created": 1664435775984,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8p5qugpig0",
+                                                    "created": 1664435547888,
+                                                    "text": "用于存放模块"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8p8pk3j000",
+                                            "created": 1664435780177,
+                                            "text": "注意"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8p90tscfk0",
+                                                    "created": 1664435804708,
+                                                    "text": " 例如某个模块的绝对路径是/home/user/hello.js，在该模块中使用require('foo/bar')\n方式加载模块时，则NodeJS依次尝试使用以下路径"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cn8p9b3e7jc0",
+                                                    "created": 1664435827057,
+                                                    "text": "  /home/user/node_modules/foo/bar\n/home/node_modules/foo/bar\n /node_modules/foo/bar"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8p17qwwu00",
+                                    "created": 1664435192858,
+                                    "text": "NODE_PATH环境变量"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8pb2l2nuw0",
+                                            "created": 1664435965263,
+                                            "text": "简介"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8pb5b1m0o0",
+                                                    "created": 1664435971187,
+                                                    "text": "与PATH环境变量类似，NodeJS允许通过NODE_PATH环境变量来指定额外的模块搜索路径"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8pcnk2jag0",
+                                            "created": 1664436089279,
+                                            "text": "注意"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cn8pcp0ape00",
+                                                    "created": 1664436092437,
+                                                    "text": "NODE_PATH环境变量中包含一到多个目录路径"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cn8pcyhf9gg0",
+                                                    "created": 1664436113063,
+                                                    "text": "路径之间在Linux下使用：分隔"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "cn8pdf0eoyg0",
+                                                    "created": 1664436149040,
+                                                    "text": "在Windows下使用；分隔",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cn8pfnviyco0",
+                            "created": 1664436325064,
+                            "text": "包（package）"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cn8pqxw4ttc0",
+                                    "created": 1664437208874,
+                                    "text": "简介"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8pqzcz7a80",
+                                            "created": 1664437212070,
+                                            "text": "JS模块的基本单位是单个JS文件，但复杂些的模块往往有多个子模块组成。",
+                                            "layout_right_offset": {
+                                                "x": -1,
+                                                "y": 0
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8pvb6qf8g0",
+                                    "created": 1664437551270,
+                                    "text": "注意"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8pvd8r6e00",
+                                            "created": 1664437555746,
+                                            "text": "为了便于管理和使用，我们可以吧由多个子模块组成的大模块称做包，并把所有子模块放在同一个目录里"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cn8pvm8gdbs0",
+                                            "created": 1664437575319,
+                                            "text": "在组成一个包的所有子模块中，需要有一个入口模块，入口模块的导出对象被作为包的导出对象"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8q80jm4pc0",
+                                    "created": 1664438546838,
+                                    "text": "index.js"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8q83a6fow0",
+                                            "created": 1664438552798,
+                                            "text": "当模块的文件名是index.js,加载模块时可以使用模块所在目录的路径代替模块的路径"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cn8q9rc23lc0",
+                                    "created": 1664438683519,
+                                    "text": "package.json"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cn8qa0pjtmg0",
+                                            "created": 1664438703926,
+                                            "text": "如果想自定义入口模块的文件名和存放位置，就需要在包目录下包含一个package.json文件，并在其中指定入口模块的路径"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cn8nxckvtk00",
+                    "created": 1664432068811,
+                    "text": "文件操作"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cn8nxmsagm00",
+                    "created": 1664432091027,
+                    "text": "网络操作"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cn8nxsgmhug0",
+                    "created": 1664432103382,
+                    "text": "进程操作"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cn8nxxessrk0",
+                    "created": 1664432114156,
+                    "text": "异步编程"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
